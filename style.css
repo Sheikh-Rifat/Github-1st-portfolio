@@ -15,6 +15,7 @@ h1{
 
 section{
     display: flex;
+    padding-bottom: 200px;
 }
 .first-part{
     background-image: url(Images/Untitled\ design.png);
@@ -34,7 +35,7 @@ section{
     border-radius: 10px;
 }
 
-.left-side h1,h3,p{
+ h1,h3,p{
     color: whitesmoke;
 }
 .image-right{
@@ -42,4 +43,24 @@ section{
     padding-left: 20%;
     padding-top: 50px;
     padding-right: 50px;
+}
+.about-me{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.image-left{
+    width: 50%;
+    
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.right-side{
+    width: 60%;
+    padding-left: 2%;
+    padding-top: 50px;
+    padding-right: 80px;
+}
+.right-side p{
+    padding-right: 122px;
 }
