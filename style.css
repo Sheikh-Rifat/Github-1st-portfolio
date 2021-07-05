@@ -13,10 +13,15 @@ h1{
     font-size: 40px;
 }
 
-section{
+.first-part{
     display: flex;
     padding-bottom: 200px;
 }
+.about-me{
+    display: flex;
+    padding-bottom: 200px;
+}
+
 .first-part{
     background-image: url(Images/Untitled\ design.png);
     background-repeat: no-repeat;
@@ -63,4 +68,49 @@ section{
 }
 .right-side p{
     padding-right: 122px;
+}
+.right-side h3{
+    text-align: left;
+}
+.experience{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience h1,h3{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+.box{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.experience-item{
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px 40px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
+}
+#web-one{
+    border-left: 6px solid ;
+    border-image: linear-gradient( #4b04bd,#ff5100cc);
+    border-image-slice: 1;
+}
+#web-two{
+    border-left: 6px solid ;
+    border-image: linear-gradient( #1342df,cyan);
+    border-image-slice: 1;
+}
+.color-two{
+    color: orange;
+}
+footer{
+    padding-top: 200px;
+}
+footer p{
+    text-align: center;
 }
